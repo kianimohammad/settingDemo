@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		1CBFC27E237F376600BAC24B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBFC27D237F376600BAC24B /* AppDelegate.swift */; };
 		1CBFC280237F376600BAC24B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBFC27F237F376600BAC24B /* SceneDelegate.swift */; };
-		1CBFC282237F376600BAC24B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBFC281237F376600BAC24B /* ViewController.swift */; };
+		1CBFC282237F376600BAC24B /* FoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBFC281237F376600BAC24B /* FoodVC.swift */; };
 		1CBFC285237F376600BAC24B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CBFC283237F376600BAC24B /* Main.storyboard */; };
 		1CBFC287237F376800BAC24B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CBFC286237F376800BAC24B /* Assets.xcassets */; };
 		1CBFC28A237F376800BAC24B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CBFC288237F376800BAC24B /* LaunchScreen.storyboard */; };
+		1CBFC298237F37A300BAC24B /* Fries.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CBFC292237F37A300BAC24B /* Fries.png */; };
+		1CBFC299237F37A300BAC24B /* Pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CBFC293237F37A300BAC24B /* Pizza.png */; };
+		1CBFC29A237F37A300BAC24B /* Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CBFC294237F37A300BAC24B /* Orange.png */; };
+		1CBFC29B237F37A300BAC24B /* Banana.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CBFC295237F37A300BAC24B /* Banana.png */; };
+		1CBFC29C237F37A300BAC24B /* Apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CBFC296237F37A300BAC24B /* Apple.png */; };
+		1CBFC29D237F37A300BAC24B /* Burger.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CBFC297237F37A300BAC24B /* Burger.png */; };
+		1CBFC29F237F385300BAC24B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1CBFC29E237F385300BAC24B /* Settings.bundle */; };
+		1CBFC2A1237F399100BAC24B /* FoodList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CBFC2A0237F399100BAC24B /* FoodList.plist */; };
+		1CBFC2A3237F40CB00BAC24B /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBFC2A2237F40CB00BAC24B /* SettingVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1CBFC27A237F376600BAC24B /* settingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = settingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CBFC27D237F376600BAC24B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CBFC27F237F376600BAC24B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1CBFC281237F376600BAC24B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CBFC281237F376600BAC24B /* FoodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodVC.swift; sourceTree = "<group>"; };
 		1CBFC284237F376600BAC24B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CBFC286237F376800BAC24B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CBFC289237F376800BAC24B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CBFC28B237F376800BAC24B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CBFC292237F37A300BAC24B /* Fries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fries.png; sourceTree = "<group>"; };
+		1CBFC293237F37A300BAC24B /* Pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pizza.png; sourceTree = "<group>"; };
+		1CBFC294237F37A300BAC24B /* Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orange.png; sourceTree = "<group>"; };
+		1CBFC295237F37A300BAC24B /* Banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Banana.png; sourceTree = "<group>"; };
+		1CBFC296237F37A300BAC24B /* Apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apple.png; sourceTree = "<group>"; };
+		1CBFC297237F37A300BAC24B /* Burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Burger.png; sourceTree = "<group>"; };
+		1CBFC29E237F385300BAC24B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		1CBFC2A0237F399100BAC24B /* FoodList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FoodList.plist; sourceTree = "<group>"; };
+		1CBFC2A2237F40CB00BAC24B /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +58,7 @@
 		1CBFC271237F376600BAC24B = {
 			isa = PBXGroup;
 			children = (
+				1CBFC29E237F385300BAC24B /* Settings.bundle */,
 				1CBFC27C237F376600BAC24B /* settingDemo */,
 				1CBFC27B237F376600BAC24B /* Products */,
 			);
@@ -56,15 +75,31 @@
 		1CBFC27C237F376600BAC24B /* settingDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1CBFC291237F379500BAC24B /* Images */,
 				1CBFC27D237F376600BAC24B /* AppDelegate.swift */,
 				1CBFC27F237F376600BAC24B /* SceneDelegate.swift */,
-				1CBFC281237F376600BAC24B /* ViewController.swift */,
+				1CBFC281237F376600BAC24B /* FoodVC.swift */,
 				1CBFC283237F376600BAC24B /* Main.storyboard */,
 				1CBFC286237F376800BAC24B /* Assets.xcassets */,
 				1CBFC288237F376800BAC24B /* LaunchScreen.storyboard */,
 				1CBFC28B237F376800BAC24B /* Info.plist */,
+				1CBFC2A0237F399100BAC24B /* FoodList.plist */,
+				1CBFC2A2237F40CB00BAC24B /* SettingVC.swift */,
 			);
 			path = settingDemo;
+			sourceTree = "<group>";
+		};
+		1CBFC291237F379500BAC24B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1CBFC296237F37A300BAC24B /* Apple.png */,
+				1CBFC295237F37A300BAC24B /* Banana.png */,
+				1CBFC297237F37A300BAC24B /* Burger.png */,
+				1CBFC292237F37A300BAC24B /* Fries.png */,
+				1CBFC294237F37A300BAC24B /* Orange.png */,
+				1CBFC293237F37A300BAC24B /* Pizza.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +160,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CBFC2A1237F399100BAC24B /* FoodList.plist in Resources */,
+				1CBFC29D237F37A300BAC24B /* Burger.png in Resources */,
 				1CBFC28A237F376800BAC24B /* LaunchScreen.storyboard in Resources */,
+				1CBFC29F237F385300BAC24B /* Settings.bundle in Resources */,
+				1CBFC298237F37A300BAC24B /* Fries.png in Resources */,
+				1CBFC299237F37A300BAC24B /* Pizza.png in Resources */,
 				1CBFC287237F376800BAC24B /* Assets.xcassets in Resources */,
 				1CBFC285237F376600BAC24B /* Main.storyboard in Resources */,
+				1CBFC29A237F37A300BAC24B /* Orange.png in Resources */,
+				1CBFC29C237F37A300BAC24B /* Apple.png in Resources */,
+				1CBFC29B237F37A300BAC24B /* Banana.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +181,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CBFC282237F376600BAC24B /* ViewController.swift in Sources */,
+				1CBFC282237F376600BAC24B /* FoodVC.swift in Sources */,
+				1CBFC2A3237F40CB00BAC24B /* SettingVC.swift in Sources */,
 				1CBFC27E237F376600BAC24B /* AppDelegate.swift in Sources */,
 				1CBFC280237F376600BAC24B /* SceneDelegate.swift in Sources */,
 			);
