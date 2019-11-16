@@ -78,13 +78,12 @@
 				1CBFC291237F379500BAC24B /* Images */,
 				1CBFC27D237F376600BAC24B /* AppDelegate.swift */,
 				1CBFC27F237F376600BAC24B /* SceneDelegate.swift */,
-				1CBFC281237F376600BAC24B /* FoodVC.swift */,
-				1CBFC283237F376600BAC24B /* Main.storyboard */,
+				1CBFC2A4237F90B300BAC24B /* Controller */,
+				1CBFC2A5237F90BF00BAC24B /* View */,
 				1CBFC286237F376800BAC24B /* Assets.xcassets */,
 				1CBFC288237F376800BAC24B /* LaunchScreen.storyboard */,
 				1CBFC28B237F376800BAC24B /* Info.plist */,
-				1CBFC2A0237F399100BAC24B /* FoodList.plist */,
-				1CBFC2A2237F40CB00BAC24B /* SettingVC.swift */,
+				1CBFC2A6237F90CD00BAC24B /* Model */,
 			);
 			path = settingDemo;
 			sourceTree = "<group>";
@@ -100,6 +99,31 @@
 				1CBFC293237F37A300BAC24B /* Pizza.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		1CBFC2A4237F90B300BAC24B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1CBFC281237F376600BAC24B /* FoodVC.swift */,
+				1CBFC2A2237F40CB00BAC24B /* SettingVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1CBFC2A5237F90BF00BAC24B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1CBFC283237F376600BAC24B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1CBFC2A6237F90CD00BAC24B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1CBFC2A0237F399100BAC24B /* FoodList.plist */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
